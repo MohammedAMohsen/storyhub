@@ -66,7 +66,7 @@ Version 2 is a rebuild of the front end and a hardening pass over the back end. 
 - **Categories with a label per language** — the English name is the stable key, the Arabic label lives on the category itself, and filter URLs use slugs (`?category=failure-lessons`).
 - **A help centre** with client-side search, and a place to reach a real mailbox.
 - **Followers-only stories** — a writer chooses who may read each story: everyone, or the people who follow them. One visibility rule on the queryset guards the feeds, the writer's page, direct links, likes, comments and bookmarks alike; a link to a gated story answers with an invitation to follow, and following opens it in place. Followers are notified when a writer they follow publishes.
-- **PostgreSQL**, request throttling with a tighter budget for authentication, a profiler that cannot ship to production, early failure on missing configuration, and a test suite that went from 3 tests to 70.
+- **PostgreSQL**, request throttling with a tighter budget for authentication, a profiler that cannot ship to production, early failure on missing configuration, and a test suite that went from 3 tests to 85.
 
 ## Screenshots
 
